@@ -7,6 +7,10 @@
 <meta name="description" content="Free flashcards and quick quizzes for nursing students: nursing topics, A&amp;P 1 &amp; 2 and Microbiology, each question checked line by line.">
 <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#14101c" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Cove Quiz">
 <style>
 :root{
   color-scheme:light;
@@ -944,5 +948,6 @@ function drawDone(){
 
 renderHome();
 </script>
+<script>if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');</script>
 </body>
 </html>
