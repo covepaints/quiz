@@ -445,6 +445,24 @@ const DECKS = [
    ["After you delegate a task, who keeps overall accountability for the client?","The delegating nurse","The person doing the task is responsible for doing it right, but the nurse stays accountable for the client.",["The UAP who did it","The charge nurse only","Nobody, once it's delegated"]],
    ["An adult is choking and can't speak or breathe. First action?","Act now: back blows and abdominal thrusts, call for help, stay","It's the exception to \"assess first\": the action is clear. Current AHA guidance (2025): cycles of 5 back blows, then 5 abdominal thrusts. Calling a rapid response and leaving isn't first.",["Call a rapid response and wait","Do a full head-to-toe assessment","Check the chart for allergies"]]
  ]},
+ { id:"dose", title:"Dosage Calc", sheet:"Dosage Calc Sheet",
+   blurb:"Conversions, formulas, IV rates, safe writing",
+   items:[
+   ["Ordered 500 mg. You have 250 mg per 5 mL. How many mL?","10 mL","Desired ÷ Have × Quantity: 500 ÷ 250 × 5 mL = 10 mL.",["5 mL","2.5 mL","20 mL"]],
+   ["Converting 0.5 g to mg, you…","Multiply by 1000 (500 mg)","Big → small, multiply. Small → big, divide.",["Divide by 1000 (0.0005 mg)","Multiply by 100 (50 mg)","Multiply by 10 (5 mg)"]],
+   ["A child weighs 44 lb. What's that in kg?","20 kg","Divide by 2.2 (or use your program's factor). Convert to kg before you multiply.",["96.8 kg","22 kg","42 kg"]],
+   ["20 mg/kg/day divided q8h for a 20 kg child. How much per dose?","133.3 mg","20 × 20 = 400 mg/day. q8h = 3 doses a day, so 400 ÷ 3 = 133.3 mg.",["400 mg","100 mg","200 mg"]],
+   ["\"Per day, divided q6h\" means you divide the daily dose by…","4","24 hours ÷ 6 = 4 doses. \"Per dose\" means don't divide at all.",["6","3","24"]],
+   ["Heparin 25,000 units in 250 mL runs at 10 mL/hr. How many units per hour?","1000 units/hr","25,000 ÷ 250 = 100 units/mL. 100 × 10 mL/hr = 1000 units/hr. High-alert: double-check per policy.",["100 units/hr","2500 units/hr","10,000 units/hr"]],
+   ["1000 mL over 8 hours on a pump. What rate?","125 mL/hr","Total mL ÷ total hours = mL/hr.",["80 mL/hr","150 mL/hr","100 mL/hr"]],
+   ["100 mL over 30 minutes on a pump. What rate?","200 mL/hr","Minutes to hours first: 30 min = 0.5 hr. 100 ÷ 0.5 = 200 mL/hr.",["50 mL/hr","100 mL/hr","300 mL/hr"]],
+   ["1000 mL over 8 hours by gravity, drop factor 15 gtt/mL. Drops per minute?","31 gtt/min","1000 × 15 ÷ 480 min = 31.25. Drops round to a whole number.",["125 gtt/min","63 gtt/min","8 gtt/min"]],
+   ["With a 60 gtt/mL microdrip set, drops per minute equals…","The mL/hr rate","The 60 drops per mL and 60 minutes per hour cancel out.",["The mL/hr rate ÷ 60","The mL/hr rate × 60","The total mL ÷ 60"]],
+   ["1000 mL at 125 mL/hr, started at 0700. When does it finish?","1500","1000 ÷ 125 = 8 hours. 0700 + 8 hours = 1500.",["1300","1700","1515"]],
+   ["Which is written safely (ISMP)?","0.5 mg","Leading zero always. Trailing zero never: 5.0 mg can be misread as 50 mg. Write \"units\" in full, never \"U\".",[".5 mg","5.0 mg","10 U insulin"]],
+   ["When do you round in a multi-step problem?","Once, at the end","Carry the decimals through and round once at the end. Your program's rounding rules win on exams (some round a converted weight first).",["After every step","Before converting units","Never, give the exact decimal"]],
+   ["5 mcg/kg/min for an 80 kg client. The bag is 1.6 mg/mL. What pump rate?","15 mL/hr","5 × 80 = 400 mcg/min. × 60 = 24,000 mcg/hr ÷ 1000 = 24 mg/hr. 24 mg/hr ÷ 1.6 mg/mL = 15 mL/hr.",["24 mL/hr","150 mL/hr","1.5 mL/hr"]]
+ ]},
  { id:"ap1ch1", title:"A&P 1 · Ch 1: The Body's Map", sheet:"Chapter 1 notes",
    blurb:"Levels, planes, directions, cavities, feedback",
    items:[
